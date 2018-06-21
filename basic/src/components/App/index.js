@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Main from './components/Main';
-import NavBar from './components/NavBar';
+import Main from './Main';
+import NavBar from './NavBar';
 
 class App extends Component {
   render() {
@@ -10,13 +10,9 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">React Practice</h1>
         </header>
-        <section>
-          <nav className="nav">
+        <section className="App-flex">
             <NavBar />
-          </nav>
-          <article className="aritcle">
             <Main />
-          </article>
         </section>
       </div>
     );

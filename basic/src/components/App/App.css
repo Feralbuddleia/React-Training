@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -10,8 +11,20 @@
 .App-header {
   background-color: #222;
   height: 50px;
-  padding: 20px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-bottom: 20px;
   color: white;
+  position: fixed;
+  z-index: 10;
+}
+
+.App-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-top: 70px;
 }
 
 .App-title {
@@ -22,20 +35,26 @@
   font-size: large;
 }
 
-.nav {
-  float: left;
+.App-nav {
   width: 20%;
   padding: 50px;
   background-color: #ccc;
   height: 100%;
+  
 }
 
-.article {
-  float: left;
+.App-article {
   width: 80%;
-  padding: 20px;
   text-align: center;
+  padding-top: 20px;
   height: 100%;
+  flex-basis: auto;
+  display: flex;
+  justify-content: center
+}
+
+.App-text-left {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
