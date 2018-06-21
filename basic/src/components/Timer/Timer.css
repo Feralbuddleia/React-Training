@@ -1,0 +1,23 @@
+.Timer-container {
+    width: 400px;
+}
+
+.Timer-screen {
+    height: 300px;
+    color: blue;
+    font-size: 150px;
+    font-weight: bolder;
+    border-style: ridge;
+    text-align: center;
+    padding-bottom: 110px;
+
+}
+
+.Timer-btn {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
