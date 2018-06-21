@@ -1,0 +1,42 @@
+.Iphone-container {
+    width: 360px;
+    position: relative;
+    margin-top: 10px;
+    background-color: #87CEEB;
+    border-style: ridge;
+    height: 550px;
+    color: white;
+}
+
+.Iphone-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.Iphone-flex-item {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Iphone-status-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.Iphone-content {
+    position: relative;
+    overflow: auto;
+    height: 435px;
+    
+}
+
+.Iphone-footer {
+    overflow: hidden;
+    background-color: #75daff;
+    filter: alpha(opacity=30)
+}
