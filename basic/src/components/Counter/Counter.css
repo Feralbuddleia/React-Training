@@ -1,0 +1,24 @@
+.Counter-container {
+    width: 400px;
+}
+
+.Counter-screen {
+    height: 300px;
+    color: blue;
+    font-size: 150px;
+    font-weight: bolder;
+    padding: 110px 0;
+    border-style: ridge;
+    text-align: center;
+
+
+}
+
+.Counter-btn {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+}
