@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Counter.css';
-import Button from './Button';
+import Button from '../common/Button';
 
 class Counter extends Component {
     constructor(props) {
@@ -29,8 +29,8 @@ class Counter extends Component {
                     <span>{this.state.number}</span>
                 </div>
                 <div>
-                    <Button value="+" eventHandler={this.increase}/>
-                    <Button value="-" eventHandler={this.decrease}/>
+                    <Button value="+" eventHandler={this.increase} style="Counter-btn"/>
+                    <Button value="-" eventHandler={this.decrease} style="Counter-btn"/>
                 </div>
             </div>
         )
