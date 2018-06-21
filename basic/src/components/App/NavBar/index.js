@@ -7,6 +7,7 @@ const NavBar = () => (
             <li><Link to='/'> Home </Link> </li>
             <li><Link to='/hw1/htmltable'> HtmlTable </Link> </li>
             <li><Link to='/hw1/iphone'> Iphone Layout </Link> </li> 
+            <li><Link to='/hw2/counter'> Counter </Link> </li>
         </ul>
     </nav>
 )
