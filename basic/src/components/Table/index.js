@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import Table from './table/Table';
+import React, {Component} from 'react';
+import Row from './Row';
+import './Table.css'
 
-class HtmlTable extends Component {
+class Table extends Component {
     render() {
         const data = [
             ["", "Knocky", "Flor", "Ella", "Juan"],
@@ -11,10 +12,13 @@ class HtmlTable extends Component {
             ["Eating Habits", "leftovers", "Nibbles", "Hearty eater", "will eat till he explodes"]
         ];
         return (
-            <Table table={data}/>
-        );
-            
+            <div>
+                {data.map((row, idx) => 
+                    <Row row={row} key={idx} />
+                )}
+            </div>
+        )
     }
 }
 
-export default HtmlTable;
+export default Table;
