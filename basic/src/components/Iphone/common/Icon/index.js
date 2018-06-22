@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Icon extends Component {
     render() {
@@ -9,6 +10,11 @@ class Icon extends Component {
             </div>
         )
     }
+}
+
+Icon.propTypes = {
+    src: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired
 }
 
 export default Icon;

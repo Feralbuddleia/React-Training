@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Icon from '../common/Icon';
+import PropTypes from 'prop-types';
 import '../Iphone.css'
 
 class Content extends Component {
@@ -12,6 +13,10 @@ class Content extends Component {
             </div>
         )
     }
+}
+
+Content.propTypes = {
+    apps: PropTypes.array
 }
 
 export default Content;
