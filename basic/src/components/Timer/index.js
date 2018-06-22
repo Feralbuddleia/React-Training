@@ -35,7 +35,7 @@ class Timer extends Component {
         clearInterval(this.id);
         this.setState({
             number: 0,
-            isPaused: false
+            isPaused: true
         })
     }
 
