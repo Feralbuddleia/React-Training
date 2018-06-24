@@ -1,0 +1,42 @@
+.GitHubUser-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.GitHubUser-item {
+    width: 50%;
+}
+
+.GitHubUser-user-id {
+    width: 20%;
+}
+
+.GitHubUser-user-item {
+    width: 40%;
+}
+
+.GitHubUser-img {
+    height: 50px;
+    width: 50px;
+}
+
+.GitHubUser-detail-box {
+    border-style: ridge;
+    width: 300px;
+    height: 300px;
+
+}
+
+.GitHubUser-text-left {
+    text-align: left;
+}
+
+.GitHubUser-fixed {
+    position: fixed;
+}
+
+.GitHubUser-bolder {
+    font-weight: bolder;
+}
