@@ -6,6 +6,7 @@
 - [Iphone Layout](#iphone-layout)
 - [Counter](#counter)
 - [Timer](#timer)
+- [Github User](#github-user)
 
 ## Html Table
 
@@ -67,6 +68,7 @@ Requirements:
 * Docker should always stay in bottom
 * No need to have the extra icon and text for Apps, just use bordered squares.
 * For each row the max number of icons is four
+
 ![iphone layout](http://tutorial.haochuan.io/diagram/dist/iphone.png)
 
 ## Counter
@@ -86,3 +88,8 @@ Build simple timer web application using React:
 * You need to have a reset button to reset the number of the time to 0. Please note that if you press the reset button while the timer is running, the time should not stop and will start from 0 again.
 * Suppose that you started the timer and stopped it at 3 (second), when you start the timer again without reset, the timer should continue running start from 3.
 ![timer](http://tutorial.haochuan.io/diagram/dist/react-homework-2.gif)
+
+## Github User
+
+In this homework, we are going to practice sending HTTP request in React and build a web application to view github users. First of all we will send a GET HTTP request to get 100 users from github, and render those data in the UI. Then every time when we click one of the user in the list, we will show the detail user information in the UI.
+![github user](http://tutorial.haochuan.io/diagram/dist/react-homework-3.gif)
