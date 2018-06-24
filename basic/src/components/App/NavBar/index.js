@@ -9,6 +9,7 @@ const NavBar = () => (
             <li><Link to='/hw1/iphone'> Iphone Layout </Link> </li> 
             <li><Link to='/hw2'> Counter </Link> </li>
             <li><Link to="/hw3"> Timer </Link> </li>
+            <li><Link to="/hw4"> GitHubUser</Link> </li>
         </ul>
     </nav>
 )
